@@ -36,40 +36,40 @@ New-Item -Path "C:\CompanyData\Finance\employee-info.txt" -ItemType File
 
 ### 2. Create the User "kearl"
 
-#### 1. Find the Folder "CompanyData"
+  #### 1. Find the Folder "CompanyData"
 
-#### 2. Right-Click the HR folder -> Properties
+  #### 2. Right-Click the HR folder -> Properties
 
-#### 3. Go to the Security tab
+  #### 3. Go to the Security tab
 
-#### 4. Click Edit 
+  #### 4. Click Edit 
 
-#### 5. Click Add
+  #### 5. Click Add
 
-#### 6. Enter "kearl"
+  #### 6. Enter "kearl"
 
-#### 7. Click Ok
+  #### 7. Click Ok
 
 ### 3. Modify kearl permissions
 
-#### Still in the properties, go to "edit"
+  #### Still in the properties, go to "edit"
 
-#### You will be Permissions
+  #### You will be Permissions
 
-#### Click on the user kearl@AMTech.local
+  #### Click on the user kearl@AMTech.local
 
-#### Click Edit
+  #### Click Edit
 
-#### Check 
+  #### Check 
   - Read and execute
   - List folders content
   - Read
   - Write
   - Modify
 
-#### Click Apply
+  #### Click Apply
 
-#### Click Ok
+  #### Click Ok
 
 
 
