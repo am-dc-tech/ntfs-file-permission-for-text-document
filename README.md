@@ -128,19 +128,11 @@ This is a logon restriction, not a file permission problem. `kearl` still holds 
 
 The permissions were set up correctly, but I couldn't test a real login as `kearl` on the domain controller. Next time I'll join a Windows client to the domain and log in as `kearl` to confirm. 
 
-## What I learned
-
 ## 💡 Summary of Skills Learned
-
-## What I Learned
 
 * **NTFS Permissions:** How to give a user access to a folder (`kearl` got Modify on `C:\CompanyData`).
 * **Inheritance:** Permissions on a parent folder pass down to the folders and files inside it. In `icacls`, this shows up as
-
-- `(I)` inherited
-- `(OI)` applies to files
-- `(CI)` applies to subfolders.
-
+ `(I)` inherited, `(OI)` applies to files and `(CI)` applies to subfolders.
 * **Verifying Access:** How to check permissions with `icacls` and the Effective Access tab.
 * **Logon Rights:** Regular domain users can't log in on a domain controller by default (Error 1385). This is separate from file permissions.
 * **Logon Rights:** Learned that regular domain users can't log in on a domain controller by default (Error 1385), which is separate from file permissions.
