@@ -62,7 +62,14 @@ New-Item -Path "C:\CompanyData\Finance\employee-info.txt" -ItemType File
  7. Click Apply
 8. Click Ok
 
+### 4 Verify Via PowerShell
 
+  1. Open PowerShell as Administrator
+  2. Run the following command to check the Access Control List (ACL) for the folder
+
+     ```powershell
+  icals "C:\CompanyData\Finance"
+     ```
 
 
     
