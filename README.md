@@ -164,12 +164,25 @@ whoami
 ```
 <img width="282" height="44" alt="12 whoami-admin" src="https://github.com/user-attachments/assets/6c8083b7-52c9-4472-968e-c11cf53f607e" />
 
-Try Accessing the File via Command prompt
+Try Accessing the File via Powershell
 
-```p
 
+```powershell
+cd C:\CompanyData\Finance
+```
+```powershell
+Get-ChildItem
+```
+
+<img width="997" height="168" alt="13 powershell-permission-denied" src="https://github.com/user-attachments/assets/19a33dd8-c83e-4e62-81a5-0830395f2531" />
+
+
+10. Try Accessing the Folder Via GUI
+
+    
 <img width="348" height="180" alt="image" src="https://github.com/user-attachments/assets/ba3911ef-69d2-498e-b7eb-691757f16e6c" />
 
+Windows using UAC (User Account Control) to automatically change the folder's security settings for you on the fly.
 
 ## Thoughts
 
@@ -186,5 +199,6 @@ This lab focused on basic file and folder permissions. In the next lab, I will e
 * **Inheritance:** Permissions on a parent folder pass down to the folders and files inside it. In `icacls`, this shows up as
  `(I)` inherited, `(OI)` applies to files and `(CI)` applies to subfolders.
 * **Verifying Access:** How to check permissions with `icacls` and the Effective Access tab in the GUI.
+* **UAC and how it changes permissions but only in the GUI and not in Command Prompt and PowerShell
 
 
