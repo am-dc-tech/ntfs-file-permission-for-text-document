@@ -86,15 +86,21 @@ icacls "C:\CompanyData\Finance"
  * `(M)`: **Modify** Permission (Full Read/Write/Delete access)
    
 
-<img width="786" height="639" alt="properties-security-advanced" src="https://github.com/user-attachments/assets/3865ea14-2766-41b8-9383-25e2f0799ffa" />
+<img width="360" height="482" alt="Kearl-Added-Properties" src="https://github.com/user-attachments/assets/416c5ea6-8e37-4acf-b5f8-3e98a965f80c" />
 
-<img width="783" height="632" alt="effectiveuser-select user" src="https://github.com/user-attachments/assets/4ee6e66b-2191-4efa-a9b9-cbdb78611731" />
+<img width="764" height="517" alt="kearl-added-group-policy" src="https://github.com/user-attachments/assets/7a1ed3ac-0c85-4a61-abb5-aaf6438489b2" />
 
-<img width="785" height="634" alt="effective user kearl" src="https://github.com/user-attachments/assets/f49677e2-de43-4414-9107-60b0bc5f0937" />
 
-<img width="781" height="638" alt="kearlpermissions" src="https://github.com/user-attachments/assets/a7057e6a-bbe8-4200-8f9f-acf628b7ec01" />
+## 5 Log into the user kearl and use the `whoami` 
 
-## Validating The User Permissions
+```powershell
+whoami
+```
+
+<img width="252" height="42" alt="whoami" src="https://github.com/user-attachments/assets/bc4bb93c-6483-442b-8798-acf0a3ac45e7" />
+
+
+## 6 Runas command
 
 To test access, I tried launching a session as `kearl` with `runas`:
 
@@ -102,13 +108,21 @@ To test access, I tried launching a session as `kearl` with `runas`:
 runas /user:AMTECH\kearl cmd
 ```
 
-This failed with **Error 1385: "Logon failure: the user has not been granted the requested logon type at this computer."**
+<img width="478" height="77" alt="runas-command" src="https://github.com/user-attachments/assets/55108359-4459-4cae-9b49-f645013ecda0" />
 
-`runas` starts an interactive logon on the machine where it's run. I ran it on **AM-DC-01, a domain controller**. By default, the Default Domain Controllers Policy only allows administrative groups (such as Administrators, Account Operators, and Backup Operators) to log on locally to a DC. `kearl` is a standard domain user, so Windows denied the logon, even though `kearl` has valid credentials.
+# 7 See the secret file 
 
-This is a logon restriction, not a file permission problem. `kearl` still holds NTFS Modify permissions on `C:\CompanyData\Finance`, as verified by `icacls` and the Effective Access tab.
+```powershell
+dir C:\CompanyData![Uploading access-not-granted-.png…]()
 
-<img width="839" height="142" alt="Screenshot 2026-10-22 122051" src="https://github.com/user-attachments/assets/09f14be1-6eec-4b27-b196-7ea7b550d5a2" />
+```
+
+<img width="558" height="249" alt="secret-file" src="https://github.com/user-attachments/assets/7de7704a-4c5e-4811-b16f-3c6cc5215040" />
+
+# 8 Log back to the administrator and see what happens if you look at the `CompanyData/Finance` folder
+
+<img width="348" height="180" alt="image" src="https://github.com/user-attachments/assets/ba3911ef-69d2-498e-b7eb-691757f16e6c" />
+
 
 ## Thoughts
 
