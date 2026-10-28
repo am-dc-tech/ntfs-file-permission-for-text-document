@@ -97,7 +97,7 @@ icacls "C:\CompanyData\Finance"
 - Right-Click **properties**
 - Go to the **Security** tab
 - Click on `kearl`
-- **Advanced*
+- **Advanced**
 - **Effective Access**
 - Select User
 - Input `kearl`
