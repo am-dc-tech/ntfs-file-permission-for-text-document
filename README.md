@@ -47,6 +47,9 @@ New-Item -Path "C:\CompanyData\Finance\employee-info.txt" -ItemType File
 6. Enter **"kearl"**
 7. Click **OK**
 
+<img width="369" height="480" alt="1 companyfinance-advanced" src="https://github.com/user-attachments/assets/66b7b323-25eb-4a5b-9352-ef94546ad1ad" />
+
+
 <img width="360" height="206" alt="image" src="https://github.com/user-attachments/assets/5c74ed68-d086-48b3-80a9-830043ccbd38" />
 
 
