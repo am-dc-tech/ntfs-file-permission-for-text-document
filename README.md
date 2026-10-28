@@ -66,7 +66,7 @@ New-Item -Path "C:\CompanyData\Finance\employee-info.txt" -ItemType File
 6. Click Apply
 7. Click OK
 
-<img width="781" height="638" alt="kearlpermissions" src="https://github.com/user-attachments/assets/eef32c79-ae29-42fc-9ebd-b7cb51288d9d" />
+<img width="360" height="482" alt="Kearl-Added-Properties" src="https://github.com/user-attachments/assets/416c5ea6-8e37-4acf-b5f8-3e98a965f80c" />
 
 
 ### 4. Verify Via PowerShell
@@ -90,14 +90,14 @@ icacls "C:\CompanyData\Finance"
  * `(OI)`: **Object Inherit** (applies to child files)
  * `(CI)`: **Container Inherit** (applies to child subfolders)
  * `(M)`: **Modify** Permission (Full Read/Write/Delete access)
-   
 
-<img width="360" height="482" alt="Kearl-Added-Properties" src="https://github.com/user-attachments/assets/416c5ea6-8e37-4acf-b5f8-3e98a965f80c" />
+## 5. Check on the GUI the Effective Access
+
 
 <img width="764" height="517" alt="kearl-added-group-policy" src="https://github.com/user-attachments/assets/7a1ed3ac-0c85-4a61-abb5-aaf6438489b2" />
 
 
-## 5. Log into the user `kearl` and use the `whoami`command
+## 6. Log into the user `kearl` and use the `whoami`command
 
 Open PowerShell
 
@@ -108,7 +108,7 @@ whoami
 <img width="252" height="42" alt="whoami" src="https://github.com/user-attachments/assets/bc4bb93c-6483-442b-8798-acf0a3ac45e7" />
 
 
-## 6. Runas command
+## 7. Runas command
 
 To test access, I tried launching a session as `kearl` with `runas`:
 
@@ -121,7 +121,7 @@ runas /user:AMTECH\kearl cmd
 
 <img width="478" height="77" alt="runas-command" src="https://github.com/user-attachments/assets/55108359-4459-4cae-9b49-f645013ecda0" />
 
-# 7. See the secret file exist in powershell and verify contents in the GUI 
+# 8. See the secret file exist in powershell and verify contents in the GUI 
 
 ```powershell
 dir C:\CompanyData\Finance
@@ -132,7 +132,7 @@ dir C:\CompanyData\Finance
 <img width="788" height="591" alt="file-permission-secret-txt" src="https://github.com/user-attachments/assets/199d5b5f-60f9-482e-9ad7-d060705259e9" />
 
 
-# 8. Log back to the administrator and see what happens if you look at the `CompanyData/Finance` folder
+# 9. Log back to the administrator and see what happens if you look at the `CompanyData/Finance` folder
 
 Access can be granted but they must bypass a Window.
 
