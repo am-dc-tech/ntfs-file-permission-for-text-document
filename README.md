@@ -138,12 +138,20 @@ runas /user:AMTECH\kearl cmd
 
 # 8. See the File Exist in PowerShell and Verify Contents in the GUI 
 
+Go to Powershell and type
+
 ```powershell
 dir C:\CompanyData\Finance
 ```
 
 <img width="558" height="249" alt="secret-file" src="https://github.com/user-attachments/assets/7de7704a-4c5e-4811-b16f-3c6cc5215040" />
 
+Now for the GUI
+
+- Go to `This PC`
+- `C Drive`
+- `CompanyData/Finance`
+  
 <img width="788" height="591" alt="file-permission-secret-txt" src="https://github.com/user-attachments/assets/199d5b5f-60f9-482e-9ad7-d060705259e9" />
 
 
