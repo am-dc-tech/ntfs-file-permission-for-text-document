@@ -129,7 +129,7 @@ dir C:\CompanyData\Finance
 <img width="788" height="591" alt="file-permission-secret-txt" src="https://github.com/user-attachments/assets/199d5b5f-60f9-482e-9ad7-d060705259e9" />
 
 
-# 8 Log back to the administrator and see what happens if you look at the `CompanyData/Finance` folder
+# 8. Log back to the administrator and see what happens if you look at the `CompanyData/Finance` folder
 
 Access can be granted but they must bypass a Window.
 
