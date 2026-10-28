@@ -65,7 +65,7 @@ New-Item -Path "C:\CompanyData\Finance\employee-info.txt" -ItemType File
 <img width="781" height="638" alt="kearlpermissions" src="https://github.com/user-attachments/assets/eef32c79-ae29-42fc-9ebd-b7cb51288d9d" />
 
 
-### 4 Verify Via PowerShell
+### 4. Verify Via PowerShell
 
   1. Open PowerShell as Administrator
   2. Run the following command to check the Access Control List (ACL) for the folder
@@ -93,7 +93,7 @@ icacls "C:\CompanyData\Finance"
 <img width="764" height="517" alt="kearl-added-group-policy" src="https://github.com/user-attachments/assets/7a1ed3ac-0c85-4a61-abb5-aaf6438489b2" />
 
 
-## 5 Log into the user `kearl` and use the `whoami`command
+## 5. Log into the user `kearl` and use the `whoami`command
 
 Open PowerShell
 
@@ -104,13 +104,15 @@ whoami
 <img width="252" height="42" alt="whoami" src="https://github.com/user-attachments/assets/bc4bb93c-6483-442b-8798-acf0a3ac45e7" />
 
 
-## 6 Runas command
+## 6. Runas command
 
 To test access, I tried launching a session as `kearl` with `runas`:
 
 ```powershell
 runas /user:AMTECH\kearl cmd
 ```
+*the runas command allows you to run a specific program or command using the permissions of a different user account (usually an administrator) without having to log out of your current account.*
+
 
 <img width="478" height="77" alt="runas-command" src="https://github.com/user-attachments/assets/55108359-4459-4cae-9b49-f645013ecda0" />
 
