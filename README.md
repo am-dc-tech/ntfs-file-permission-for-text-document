@@ -93,6 +93,20 @@ icacls "C:\CompanyData\Finance"
 
 ## 5. Check on the GUI the Effective Access
 
+- Go to CompanyData\Finance
+- Right-Click **properties**
+- Go to the **Security** tab
+- Click on `kearl`
+- **Advanced*
+- **Effective Access**
+- Select User
+- Input `kearl`
+- Check Names
+- Ok
+- **View effective access**
+
+<img width="785" height="634" alt="7 effective user kearl" src="https://github.com/user-attachments/assets/90e77bce-3359-4e2d-ba8e-5ecc4233b9f3" />
+
 
 <img width="764" height="517" alt="kearl-added-group-policy" src="https://github.com/user-attachments/assets/7a1ed3ac-0c85-4a61-abb5-aaf6438489b2" />
 
