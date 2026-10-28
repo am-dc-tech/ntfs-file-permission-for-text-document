@@ -131,6 +131,8 @@ dir C:\CompanyData\Finance
 
 # 8 Log back to the administrator and see what happens if you look at the `CompanyData/Finance` folder
 
+Access can be granted but they must bypass a Window.
+
 <img width="348" height="180" alt="image" src="https://github.com/user-attachments/assets/ba3911ef-69d2-498e-b7eb-691757f16e6c" />
 
 
