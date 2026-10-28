@@ -36,13 +36,15 @@ New-Item -Path "C:\CompanyData\Finance\employee-info.txt" -ItemType File
 
 #### How to Update Folder Permissions
 
-1. Find the Folder **"CompanyData"**
+1. Find the Folder **"CompanyData/Finance"**
 2. Right-click **Properties**
 3. Go to the **Security** tab
 4. Click **Edit**
 5. Click **Add**
 6. Enter **"kearl"**
 7. Click **OK**
+
+<img width="360" height="206" alt="image" src="https://github.com/user-attachments/assets/5c74ed68-d086-48b3-80a9-830043ccbd38" />
 
 
 ### 3. Modify kearl permissions
@@ -55,14 +57,10 @@ New-Item -Path "C:\CompanyData\Finance\employee-info.txt" -ItemType File
   - Read and execute
   - List folders content
   - Modify
-6.. Click Apply
+6. Click Apply
 7. Click Ok
 
-<img width="783" height="587" alt="company-data-properties" src="https://github.com/user-attachments/assets/41d6eaec-1a9a-4ad1-a0bb-fdb311d89ea4" />
-
-<img width="784" height="633" alt="image" src="https://github.com/user-attachments/assets/278b40ad-4863-4a3c-a2e7-ff8ffd59cd78" />
-
-<img width="786" height="641" alt="Screenshot 2026-10-22 113619" src="https://github.com/user-attachments/assets/999727fb-8a62-4b63-a1f4-2b3090ea5ff3" />
+<img width="781" height="638" alt="kearlpermissions" src="https://github.com/user-attachments/assets/eef32c79-ae29-42fc-9ebd-b7cb51288d9d" />
 
 
 ### 4 Verify Via PowerShell
@@ -86,19 +84,7 @@ icacls "C:\CompanyData\Finance"
  * `(OI)`: **Object Inherit** (applies to child files)
  * `(CI)`: **Container Inherit** (applies to child subfolders)
  * `(M)`: **Modify** Permission (Full Read/Write/Delete access)
-    
-
-OR
-
-### Verify It In The GUI
-
-  1. Right-click the folder `CompanyData`
-  2. Click **Properties**
-  3. Go to the **Security** tab and then Click **Advanced** at bottom
-  4. Switch to **Effective Access** tab
-  5. In the text box, type `kearl`
-  6. Click **View Effective Access**
-  7. Scroll down to see all the access the user `kearl` has
+   
 
 <img width="786" height="639" alt="properties-security-advanced" src="https://github.com/user-attachments/assets/3865ea14-2766-41b8-9383-25e2f0799ffa" />
 
