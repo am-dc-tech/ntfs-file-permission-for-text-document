@@ -8,7 +8,7 @@ In this lab a secret file will only be accessible for a user and not even the ad
 
 Hypervisor: VMware Workstation
 
-OS: Windows Server 2025 (ADMIN)
+OS: Windows Server 2025 (ADMIN) &
 OS: Windows 11 Home (USER)
 
 Server: AM-DC-01 (Domain Controller)
