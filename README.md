@@ -26,7 +26,7 @@ User: AMTECH\kearl
 #### Open Powershell as Administrator and run:
 
 ```powershell
-New-Item -Path "C:\CompanyData" -ItemType Directory
+New-Item -Path "C:\CompanyData\Finance" -ItemType Directory
 ```
 
 #### Create a test file 
