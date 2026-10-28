@@ -82,8 +82,6 @@ icacls "C:\CompanyData\Finance"
 
 <img width="868" height="564" alt="acl" src="https://github.com/user-attachments/assets/2047b868-2644-4105-a69b-93f5a4bc62ee" />
 
-<img width="781" height="638" alt="Advanced-Security-Setting-Kearl" src="https://github.com/user-attachments/assets/3fe68c9f-c5c9-45c3-a692-dcb2f84f9fdf" />
-
 
 ## Breakdown on the Permission Flags in Powershell
 
