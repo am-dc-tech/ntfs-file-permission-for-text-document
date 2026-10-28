@@ -164,8 +164,9 @@ whoami
 ```
 <img width="282" height="44" alt="12 whoami-admin" src="https://github.com/user-attachments/assets/6c8083b7-52c9-4472-968e-c11cf53f607e" />
 
+Try Accessing the File via Command prompt
 
-Access can be granted but they must bypass a Window.
+```p
 
 <img width="348" height="180" alt="image" src="https://github.com/user-attachments/assets/ba3911ef-69d2-498e-b7eb-691757f16e6c" />
 
