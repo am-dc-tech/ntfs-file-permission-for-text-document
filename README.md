@@ -13,12 +13,14 @@ OS: Windows Server 2025
 
 Server: AM-DC-01 (Domain Controller)
 
-Domain: AM-Tech.local
+Administrator: AMTECH\Administrator
+
+User: AMTECH\kearl
 
 
 ## Steps
 
-### 1. Create The Company Folders
+### 1. Create The Company Folders with Administrator
 
 #### Open Powershell as Administrator and run:
 
@@ -91,7 +93,7 @@ icacls "C:\CompanyData\Finance"
 <img width="764" height="517" alt="kearl-added-group-policy" src="https://github.com/user-attachments/assets/7a1ed3ac-0c85-4a61-abb5-aaf6438489b2" />
 
 
-## 5 Log into the user kearl and use the `whoami` 
+## 5 Log into the user `kearl` and use the `whoami` 
 
 ```powershell
 whoami
