@@ -2,14 +2,14 @@
 
 ## Summary
 
-In this lab I practiced creating company folders, adding permissions and testing who has access to these folders
-
+In this lab a secret file will only be accessible for a user and not even the administrator using file permissions
 
 ## Environment
 
 Hypervisor: VMware Workstation
 
-OS: Windows Server 2025
+OS: Windows Server 2025 (ADMIN)
+OS: Windows 11 Home (USER)
 
 Server: AM-DC-01 (Domain Controller)
 
