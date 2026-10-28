@@ -165,6 +165,8 @@ whoami
 <br>
 <img width="282" height="44" alt="12 whoami-admin" src="https://github.com/user-attachments/assets/6c8083b7-52c9-4472-968e-c11cf53f607e" />
 
+<br>
+
 Try Accessing the File via Powershell
 
 <br>
