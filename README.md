@@ -2,7 +2,7 @@
 
 ## Summary
 
-In this lab, I configured NTFS permissions on a Finance folder in a Windows Server Active Directory environment. I granted the domain user AMTECH\kearl Modify permissions and tested access to the protected file.
+In this lab, I configured NTFS permissions on a Finance folder in a Windows Server Active Directory environment. I granted the domain user `AMTECH\kearl` Modify permissions and tested access to the protected file.
 
 I also examined how permissions affect authorized and unauthorized users, using PowerShell and Windows security settings to verify access. The goal was to understand how folder permissions control access to sensitive company files.
 ## Environment
