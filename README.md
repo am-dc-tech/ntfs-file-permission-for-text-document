@@ -96,6 +96,8 @@ icacls "C:\CompanyData\Finance"
 
 <img width="764" height="517" alt="kearl-added-group-policy" src="https://github.com/user-attachments/assets/7a1ed3ac-0c85-4a61-abb5-aaf6438489b2" />
 
+<img width="781" height="638" alt="6 Advanced-Security-Setting-Kearl" src="https://github.com/user-attachments/assets/23640cdb-4248-4392-9abd-52124f6ad7aa" />
+
 
 ## 6. Log into the user `kearl` and use the `whoami`command
 
