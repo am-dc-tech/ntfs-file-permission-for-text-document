@@ -156,16 +156,18 @@ Now for the GUI
 
 
 # 9. Log back to the administrator and see what happens if you look at the `CompanyData/Finance` folder
-
+<br>
 Use Powershell to verify the user
 
 ```powershell
 whoami
 ```
+<br>
 <img width="282" height="44" alt="12 whoami-admin" src="https://github.com/user-attachments/assets/6c8083b7-52c9-4472-968e-c11cf53f607e" />
 
 Try Accessing the File via Powershell
 
+<br>
 
 ```powershell
 cd C:\CompanyData\Finance
@@ -173,11 +175,12 @@ cd C:\CompanyData\Finance
 ```powershell
 Get-ChildItem
 ```
+<br>
 
 <img width="1004" height="164" alt="PowerShell-Permission-Denied" src="https://github.com/user-attachments/assets/81d00708-0f82-4939-bd49-bf12cd3df7c5" />
 
 
-10. Try Accessing the Folder Via GUI
+## 10. Try Accessing the Folder Via GUI
 
     
 <img width="348" height="180" alt="image" src="https://github.com/user-attachments/assets/ba3911ef-69d2-498e-b7eb-691757f16e6c" />
