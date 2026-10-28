@@ -66,7 +66,7 @@ New-Item -Path "C:\CompanyData\Finance\employee-info.txt" -ItemType File
 6. Click Apply
 7. Click OK
 
-<img width="360" height="482" alt="Kearl-Added-Properties" src="https://github.com/user-attachments/assets/416c5ea6-8e37-4acf-b5f8-3e98a965f80c" />
+<img width="366" height="247" alt="kearl-permissions" src="https://github.com/user-attachments/assets/8a417d00-196a-4d1c-8c86-34f79baaccb1" />
 
 
 ### 4. Verify Via PowerShell
