@@ -2,14 +2,15 @@
 
 ## Summary
 
-In this lab a secret file will only be accessible for a user and not even the administrator using file permissions
+In this lab, I configured NTFS permissions on a Finance folder in a Windows Server Active Directory environment. I granted the domain user AMTECH\kearl Modify permissions and tested access to the protected file.
 
+I also examined how permissions affect authorized and unauthorized users, using PowerShell and Windows security settings to verify access. The goal was to understand how folder permissions control access to sensitive company files.
 ## Environment
 
 Hypervisor: VMware Workstation
 
 OS: Windows Server 2025 (ADMIN) &
-OS: Windows 11 Home (USER)
+OS: Windows 11 Pro (USER)
 
 Server: AM-DC-01 (Domain Controller)
 
@@ -120,8 +121,7 @@ runas /user:AMTECH\kearl cmd
 # 7. See the secret file exist in powershell and verify contents in the GUI 
 
 ```powershell
-dir C:\CompanyData/Finance
-
+dir C:\CompanyData\Finance
 ```
 
 <img width="558" height="249" alt="secret-file" src="https://github.com/user-attachments/assets/7de7704a-4c5e-4811-b16f-3c6cc5215040" />
@@ -136,7 +136,12 @@ dir C:\CompanyData/Finance
 
 ## Thoughts
 
-The lab was a success, the user kearl can access the document with the user file permissions and group policy.
+The lab was successful. The domain user AMTECH\kearl can access the Finance document based on the NTFS permissions assigned to their account.
+
+The administrator initially encountered restricted access to the folder but was able to proceed by clicking Continue. This demonstrates that NTFS permissions can restrict ordinary access, while an administrator with sufficient privileges can regain access.
+
+This lab focused on basic file and folder permissions. In the next lab, I will explore Group Policy and how it can be used to manage and enforce security settings across domain computers.
+
 
 ## 💡 Summary of Skills Learned
 
