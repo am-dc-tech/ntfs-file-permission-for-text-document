@@ -93,7 +93,9 @@ icacls "C:\CompanyData\Finance"
 <img width="764" height="517" alt="kearl-added-group-policy" src="https://github.com/user-attachments/assets/7a1ed3ac-0c85-4a61-abb5-aaf6438489b2" />
 
 
-## 5 Log into the user `kearl` and use the `whoami` 
+## 5 Log into the user `kearl` and use the `whoami`command
+
+Open PowerShell
 
 ```powershell
 whoami
