@@ -174,7 +174,7 @@ cd C:\CompanyData\Finance
 Get-ChildItem
 ```
 
-<img width="997" height="168" alt="13 powershell-permission-denied" src="https://github.com/user-attachments/assets/19a33dd8-c83e-4e62-81a5-0830395f2531" />
+<img width="1004" height="164" alt="PowerShell-Permission-Denied" src="https://github.com/user-attachments/assets/81d00708-0f82-4939-bd49-bf12cd3df7c5" />
 
 
 10. Try Accessing the Folder Via GUI
