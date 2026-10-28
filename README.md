@@ -157,6 +157,14 @@ Now for the GUI
 
 # 9. Log back to the administrator and see what happens if you look at the `CompanyData/Finance` folder
 
+Use Powershell to verify the user
+
+```powershell
+whoami
+```
+<img width="282" height="44" alt="12 whoami-admin" src="https://github.com/user-attachments/assets/6c8083b7-52c9-4472-968e-c11cf53f607e" />
+
+
 Access can be granted but they must bypass a Window.
 
 <img width="348" height="180" alt="image" src="https://github.com/user-attachments/assets/ba3911ef-69d2-498e-b7eb-691757f16e6c" />
