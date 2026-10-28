@@ -113,7 +113,7 @@ runas /user:AMTECH\kearl cmd
 # 7 See the secret file 
 
 ```powershell
-dir C:\CompanyData![Uploading access-not-granted-.png…]()
+dir C:\CompanyData/Finance
 
 ```
 
