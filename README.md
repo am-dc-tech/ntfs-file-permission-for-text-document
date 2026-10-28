@@ -110,7 +110,7 @@ runas /user:AMTECH\kearl cmd
 
 <img width="478" height="77" alt="runas-command" src="https://github.com/user-attachments/assets/55108359-4459-4cae-9b49-f645013ecda0" />
 
-# 7 See the secret file 
+# 7 See the secret file exist in powershell and verify contents in the GUI 
 
 ```powershell
 dir C:\CompanyData/Finance
@@ -119,6 +119,9 @@ dir C:\CompanyData/Finance
 
 <img width="558" height="249" alt="secret-file" src="https://github.com/user-attachments/assets/7de7704a-4c5e-4811-b16f-3c6cc5215040" />
 
+<img width="788" height="591" alt="file-permission-secret-txt" src="https://github.com/user-attachments/assets/199d5b5f-60f9-482e-9ad7-d060705259e9" />
+
+
 # 8 Log back to the administrator and see what happens if you look at the `CompanyData/Finance` folder
 
 <img width="348" height="180" alt="image" src="https://github.com/user-attachments/assets/ba3911ef-69d2-498e-b7eb-691757f16e6c" />
@@ -126,7 +129,7 @@ dir C:\CompanyData/Finance
 
 ## Thoughts
 
-The permissions were set up correctly, but I couldn't test a real login as `kearl` on the domain controller. Next time I'll join a Windows client to the domain and log in as `kearl` to confirm. 
+The lab was a success, the user kearl can access the document with the user file permissions and group policy.
 
 ## 💡 Summary of Skills Learned
 
@@ -134,7 +137,5 @@ The permissions were set up correctly, but I couldn't test a real login as `kear
 * **Inheritance:** Permissions on a parent folder pass down to the folders and files inside it. In `icacls`, this shows up as
  `(I)` inherited, `(OI)` applies to files and `(CI)` applies to subfolders.
 * **Verifying Access:** How to check permissions with `icacls` and the Effective Access tab.
-* **Logon Rights:** Regular domain users can't log in on a domain controller by default (Error 1385). This is separate from file permissions.
-* **Logon Rights:** Learned that regular domain users can't log in on a domain controller by default (Error 1385), which is separate from file permissions.
 
 
