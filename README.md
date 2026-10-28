@@ -117,7 +117,7 @@ runas /user:AMTECH\kearl cmd
 
 <img width="478" height="77" alt="runas-command" src="https://github.com/user-attachments/assets/55108359-4459-4cae-9b49-f645013ecda0" />
 
-# 7 See the secret file exist in powershell and verify contents in the GUI 
+# 7. See the secret file exist in powershell and verify contents in the GUI 
 
 ```powershell
 dir C:\CompanyData/Finance
