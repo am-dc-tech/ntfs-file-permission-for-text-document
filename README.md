@@ -140,9 +140,9 @@ The lab was a success, the user kearl can access the document with the user file
 
 ## 💡 Summary of Skills Learned
 
-* **NTFS Permissions:** How to give a user access to a folder (`kearl` got Modify on `C:\CompanyData`).
+* **NTFS Permissions:** How to give a user access to a folder (`kearl` got Modify on `C:\CompanyData\Finance`).
 * **Inheritance:** Permissions on a parent folder pass down to the folders and files inside it. In `icacls`, this shows up as
  `(I)` inherited, `(OI)` applies to files and `(CI)` applies to subfolders.
-* **Verifying Access:** How to check permissions with `icacls` and the Effective Access tab.
+* **Verifying Access:** How to check permissions with `icacls` and the Effective Access tab in the GUI.
 
 
