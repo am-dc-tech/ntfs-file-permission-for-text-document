@@ -111,7 +111,8 @@ To test access, I tried launching a session as `kearl` with `runas`:
 ```powershell
 runas /user:AMTECH\kearl cmd
 ```
-*the runas command allows you to run a specific program or command using the permissions of a different user account (usually an administrator) without having to log out of your current account.*
+
+*The runas command allows you to run a specific program or command using the permissions of a different user account (usually an administrator) without having to log out of your current account.*
 
 
 <img width="478" height="77" alt="runas-command" src="https://github.com/user-attachments/assets/55108359-4459-4cae-9b49-f645013ecda0" />
