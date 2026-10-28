@@ -94,14 +94,14 @@ icacls "C:\CompanyData\Finance"
 ## 5. Check on the GUI the Effective Access
 
 - Go to CompanyData\Finance
-- Right-Click **properties**
+- Right-Click **Properties**
 - Go to the **Security** tab
 - Click on `kearl`
 - **Advanced**
 - **Effective Access**
 - Select User
 - Input `kearl`
-- Check Names
+- **Check Names**
 - Ok
 - **View effective access**
 
