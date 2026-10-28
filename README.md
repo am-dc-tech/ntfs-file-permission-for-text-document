@@ -51,7 +51,7 @@ New-Item -Path "C:\CompanyData\Finance\employee-info.txt" -ItemType File
 
 ### 3. Modify kearl permissions
 
-1. Still in the properties, go to "edit"
+1. Still in the properties, go to the **Security**
 2. You will be in "Permissions"
 3. Click on the user kearl@AMTech.local
 4. Click Edit
@@ -60,7 +60,7 @@ New-Item -Path "C:\CompanyData\Finance\employee-info.txt" -ItemType File
   - List folders content
   - Modify
 6. Click Apply
-7. Click Ok
+7. Click OK
 
 <img width="781" height="638" alt="kearlpermissions" src="https://github.com/user-attachments/assets/eef32c79-ae29-42fc-9ebd-b7cb51288d9d" />
 
