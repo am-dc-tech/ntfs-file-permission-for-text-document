@@ -187,7 +187,7 @@ Get-ChildItem
     
 <img width="348" height="180" alt="image" src="https://github.com/user-attachments/assets/ba3911ef-69d2-498e-b7eb-691757f16e6c" />
 
-Windows using UAC (User Account Control) to automatically change the folder's security settings for you on the fly.
+With an Administrator account, Windows is using UAC (User Account Control) to automatically change the folder's security settings for you on the fly.
 
 ## Thoughts
 
